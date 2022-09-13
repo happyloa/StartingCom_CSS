@@ -1,0 +1,11 @@
+/* 將滑鼠設定成預設的樣式 */
+selector {
+    cursor: default;
+}
+selector h4 {
+    transition: all 0.3S ease-in-out;
+}
+/* 懸停時顯示出文字陰影 */
+selector h4:hover {
+    text-shadow: 1px 1px 2px #282A2D;
+}

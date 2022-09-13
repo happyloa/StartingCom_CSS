@@ -1,0 +1,7 @@
+/* 將摘要排數限為三排 */
+selector .uael-post__excerpt p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}

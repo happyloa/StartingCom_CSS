@@ -1,0 +1,4 @@
+/* 標題文字懸停時顏色改為金色 */
+selector .elementor-post__title a:hover {
+    color: #DAA520;
+}

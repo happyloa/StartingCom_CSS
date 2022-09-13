@@ -1,0 +1,5 @@
+/* 滑鼠懸停到圖片上時顯示出陰影 */
+selector img:hover {
+    box-shadow: 0px 0px 10px 4px rgba(218,165,32,0.75);
+    z-index: 1;
+}

@@ -1,0 +1,44 @@
+/* 將小工具的 position 設定為 sticky，且讓超出範圍的內容顯示 */
+selector .elementor-post {
+    position: sticky;
+    overflow: visible !important;
+}
+/* 小工具內子項目通用設定 */
+selector .elementor-post:nth-child(n):before {
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #DAA520;
+}
+/* 小工具內子項目前方文字懸停時的顏色 */
+selector .elementor-post:nth-child(n):hover:before {
+    color: #AF2C02;
+    transition: all 0.3S ease-in-out;
+}
+/* 小工具內第一個子項目設定 */
+selector .elementor-post:nth-child(1):before {
+    content: "1";
+}
+/* 小工具內第二個子項目設定 */
+selector .elementor-post:nth-child(2):before {
+    content: "2";
+}
+/* 小工具內第三個子項目設定 */
+selector .elementor-post:nth-child(3):before {
+    content: "3";
+}
+/* 小工具內第四個子項目設定 */
+selector .elementor-post:nth-child(4):before {
+    content: "4";
+}
+/* 小工具內第五個子項目設定 */
+selector .elementor-post:nth-child(5):before {
+    content: "5";
+}
+/* 小工具內第六個子項目設定 */
+selector .elementor-post:nth-child(6):before {
+    content: "6";
+}

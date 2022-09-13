@@ -1,0 +1,6 @@
+/* 在文字結尾加入 >  */
+selector h3 a:after {
+    position: absolute;
+    right: 0px;
+    content: ">";
+}

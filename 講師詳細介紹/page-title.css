@@ -1,0 +1,8 @@
+/* 當螢幕寬度小於或等於 1024px 時，將標題文字變成白色、有金色背景、有文字陰影 */
+@media (max-width: 1024px) {
+    selector h1{
+        color: #ffffff !important;
+        background-color: #DAA52080;
+        text-shadow: 1px 1px 2px #282A2D;
+    }
+}
