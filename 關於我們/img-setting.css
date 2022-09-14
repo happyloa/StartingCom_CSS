@@ -1,0 +1,4 @@
+/* 設定圖片轉場時間 */
+selector img {
+    transition: all 0.5S ease-in-out;
+}
