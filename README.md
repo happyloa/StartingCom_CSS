@@ -1,4 +1,4 @@
-# StartingCom_CSS
+# StartingCom_CustomCode
 
 啟程教育學院 .com 官網自訂程式碼
 網址：https://startingedu.com/
