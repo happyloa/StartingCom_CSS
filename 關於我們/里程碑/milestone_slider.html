@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 引入 Swiper Slider CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- 自訂 CSS -->
+    <style>
+      /* 最外層大容器的 CSS */
+      .slickContainer {
+        display: flex;
+        align-items: center;
+      }
+      /* 包含所有輪播物件的 CSS */
+      #contentContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      /* <h4> 標題元素 */
+      h4.yearText {
+        font-size: 24px;
+        text-align: center;
+        width: 80px;
+        z-index: 0;
+        position: relative;
+      }
+      h4.yearText::after {
+        display: block;
+        content: "";
+        height: 20px;
+        width: 100%;
+        position: absolute;
+        background: rgb(28, 232, 181);
+        margin-top: -15px;
+        z-index: -1;
+      }
+      /* 所有 <ui> 元素 */
+      .slideUl {
+        padding-left: 0px;
+        position: relative;
+      }
+      /* 所有 <li> 元素 */
+      .slideList {
+        list-style: none none;
+        padding: 10px 0px;
+        color: rgb(101, 101, 101);
+      }
+      /* 包含月份的 <span> 元素 */
+      .monthSpan {
+        text-align: right;
+        display: inline-block;
+        width: 50px;
+        position: absolute;
+      }
+      .monthSpan::after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: -27px;
+        top: 5px;
+        background-color: rgb(0, 136, 122);
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+      }
+      .beforeTextSpan {
+        max-width: 300px;
+        display: block;
+        padding-left: 93px;
+      }
+      /* 上一張輪播圖按鈕 */
+      #prevSlide::before {
+        content: url("https://hahow.in/static/media/arrow-l.5beedcc32ce43bf17401773e2b5e861f.svg");
+        cursor: pointer;
+      }
+      /* 下一張輪播圖按鈕 */
+      #nextSlide::before {
+        content: url("https://hahow.in/static/media/arrow-r.4e28e5ab2164b619b0b57ed55df67ec5.svg");
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 包住箭頭與輪播內容的容器 -->
+    <section class="slickContainer">
+      <!-- 上一張輪播箭頭 -->
+      <div id="prevSlide"></div>
+      <div id="timeline_slider" style="width: 30%">
+        <!-- 2018 年時間軸 -->
+        <div id="contentContainer" class="swiper-slide">
+          <h4 class="yearText">2018</h4>
+          <ul class="slideUl">
+            <li class="slideList">
+              <span class="monthSpan">7月</span
+              ><span class="beforeTextSpan"
+                ><span>啟程教育學院 正式成立</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">9月</span
+              ><span class="beforeTextSpan"
+                ><span>啟程教育學院 官方網站 上線</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">12月</span
+              ><span class="beforeTextSpan"
+                ><span>協助講師個人突破100萬營收</span></span
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- 2019 年時間軸 -->
+        <div id="contentContainer" class="swiper-slide">
+          <h4 class="yearText">2019</h4>
+          <ul class="slideUl">
+            <li class="slideList">
+              <span class="monthSpan">5月</span
+              ><span class="beforeTextSpan"
+                ><span>超過400名正式學員 / 800名線上學員</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">6月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 八大名師高峰會</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">7月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 642WWDB網路行銷術成班</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">8月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 網路一日淘金術</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">9月</span
+              ><span class="beforeTextSpan"
+                ><span
+                  >共同協辦 超級演說家 / 網路行銷高手班 /
+                  終極銷售系統實戰營</span
+                ></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">10月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 二日投資高峰會</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">11月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 二日投資高峰會-馬來西亞峰會</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">12月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 OPM眾籌談判術-公眾演說一日精華班</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="beforeTextSpan"
+                ><span
+                  >共舉辦130場演講 / 超過1100名正式學員 / 1600線上學員</span
+                ></span
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- 2020 年時間軸 -->
+        <div id="contentContainer" class="swiper-slide">
+          <h4 class="yearText">2020</h4>
+          <ul class="slideUl">
+            <li class="slideList">
+              <span class="monthSpan">1月</span
+              ><span class="beforeTextSpan"><span>網路微創高峰會</span></span>
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">2月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 被動收入高峰會-二日投資高峰會</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">3月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 超級行銷大師高峰會-均富革命高峰會</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="beforeTextSpan"
+                ><span>官方Youtube頻道上線</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">4月</span
+              ><span class="beforeTextSpan"
+                ><span
+                  >共同協辦 啟程/四意/無極限
+                  高峰會，首次開辦線上直播說明會</span
+                ></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">5月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 魔法講座-ESBI二日投資高峰會</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">6月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 世界華人八大明師 / 亞洲八大名師</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">7月</span
+              ><span class="beforeTextSpan"
+                ><span>共同協辦 天使創投嘉年華</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="beforeTextSpan"
+                ><span
+                  >共舉辦295場演講 / 超過2237名正式學員 / 9959人次學員參與</span
+                ></span
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- 2021 年時間軸 -->
+        <div id="contentContainer" class="swiper-slide">
+          <h4 class="yearText">2021</h4>
+          <ul class="slideUl">
+            <li class="slideList">
+              <span class="monthSpan">3月</span
+              ><span class="beforeTextSpan"
+                ><span>活動場地啟用 學客空間</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">4月</span
+              ><span class="beforeTextSpan"
+                ><span>網路行銷類課程單期學員突破百人</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">5月</span
+              ><span class="beforeTextSpan"
+                ><span>辦公室遷移至南京東路三段新址百坪空間</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="beforeTextSpan"
+                ><span>因應三級疫情推出線上直播課程</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">6月</span
+              ><span class="beforeTextSpan"
+                ><span>辦公室成立專業直播攝影空間</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="beforeTextSpan"
+                ><span>FB官方粉絲專頁突破萬人</span></span
+              >
+            </li>
+            <li class="slideList">
+              <span class="monthSpan">7月</span
+              ><span class="beforeTextSpan"
+                ><span>投資類課程單期學員達130人</span></span
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- 2022 年時間軸 -->
+        <div id="contentContainer" class="swiper-slide">
+          <h4 class="yearText">2022</h4>
+          <ul class="slideUl">
+            <li class="slideList">
+              <span class="monthSpan">2月</span
+              ><span class="beforeTextSpan"
+                ><span>啟程空間 正式啟用</span></span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 下一張輪播箭頭 -->
+      <div id="nextSlide"></div>
+    </section>
+    <!-- 引入 jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"></script>
+    <!-- 引入 Swiper Slider JS -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- 初始化 Swiper Slider -->
+    <script>
+      $("#timeline_slider").slick({
+        // 選擇上一張輪播的按鈕元素
+        prevArrow: $("#prevSlide"),
+        // 選擇下一張輪播的按鈕元素
+        nextArrow: $("#nextSlide"),
+      });
+    </script>
+  </body>
+</html>
