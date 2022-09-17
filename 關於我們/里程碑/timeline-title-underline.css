@@ -1,0 +1,10 @@
+selector h4:after {
+    display: block;
+    content: "";
+    height: 20px;
+    width: 6.5%;
+    position: absolute;
+    background: #DAA520;
+    margin-top: -15px;
+    z-index: -1;
+}
