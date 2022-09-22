@@ -27,7 +27,57 @@ selector .uael-post-wrapper h4:after {
     }
 }
 
+/* 李偉仁簡介文字 */
+selector .uael-post-wrapper:nth-of-type(1) h4:after {
+    content: "資產配置達人，專精各種金融商品投資的理財專家";
+}
+
 /* 李紹鋒簡介文字 */
+selector .uael-post-wrapper:nth-of-type(2) h4:after {
+    content: "資產配置達人，專精各種金融商品投資的理財專家";
+}
+
+/* Jack簡介文字 */
+selector .uael-post-wrapper:nth-of-type(3) h4:after {
+    content: "資產配置達人，專精各種金融商品投資的理財專家";
+}
+
+/* 陳昱璋簡介文字 */
 selector .uael-post-wrapper:nth-of-type(4) h4:after {
+    content: "資產配置達人，專精各種金融商品投資的理財專家";
+}
+
+/* 陳炳宏簡介文字 */
+selector .uael-post-wrapper:nth-of-type(5) h4:after {
+    content: "資產配置達人，專精各種金融商品投資的理財專家";
+}
+
+/* Iris簡介文字 */
+selector .uael-post-wrapper:nth-of-type(6) h4:after {
+    content: "資產配置達人，專精各種金融商品投資的理財專家";
+}
+
+/* 林俊洲簡介文字 */
+selector .uael-post-wrapper:nth-of-type(7) h4:after {
+    content: "資產配置達人，專精各種金融商品投資的理財專家";
+}
+
+/* 王鼎琪簡介文字 */
+selector .uael-post-wrapper:nth-of-type(8) h4:after {
+    content: "資產配置達人，專精各種金融商品投資的理財專家";
+}
+
+/* Jerry簡介文字 */
+selector .uael-post-wrapper:nth-of-type(9) h4:after {
+    content: "資產配置達人，專精各種金融商品投資的理財專家";
+}
+
+/* 魏上騰簡介文字 */
+selector .uael-post-wrapper:nth-of-type(10) h4:after {
+    content: "資產配置達人，專精各種金融商品投資的理財專家";
+}
+
+/* William簡介文字 */
+selector .uael-post-wrapper:nth-of-type(11) h4:after {
     content: "資產配置達人，專精各種金融商品投資的理財專家";
 }
