@@ -1,0 +1,9 @@
+/* 設定內部段的轉場時間 */
+#info-inner-section {
+    transition: all 0.5S ease-in;
+}
+
+/* 當內部段被懸停時，放大 3% */
+#info-inner-section:hover {
+    transform: scale(1.03);
+}
