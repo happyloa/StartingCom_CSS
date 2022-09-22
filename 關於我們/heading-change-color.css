@@ -1,0 +1,4 @@
+/* 將 span 內的文字變色 */
+selector span {
+    color: #DAA520;
+}
