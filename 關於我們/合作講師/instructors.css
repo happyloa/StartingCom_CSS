@@ -1,15 +1,5 @@
-/* 將外層容器設定為 relative */
-selector .uael-post-wrapper {
-    position: relative;
-}
-
-selector .uael-post__thumbnail, img {
-    border-radius: 15px;
-}
-
 /* 將內容容器設定為 absolute，並往上推，且設定漸層陰影 */
 selector .uael-post__content-wrap {
-    position: absolute;
     margin-top: -147px !important;
     background: linear-gradient(to top, #000, transparent);
 }
@@ -26,7 +16,7 @@ selector .uael-post-wrapper h4:after {
 /* 當螢幕寬度小於或等於 1024px 時，套用以下的 CSS */
 @media (max-width: 1024px) {
     selector .uael-post__content-wrap {
-        margin-top: -158px !important;
+        margin-top: -157px !important;
     }
     
     selector .uael-post-wrapper h4:after {
