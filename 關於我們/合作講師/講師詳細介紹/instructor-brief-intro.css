@@ -1,0 +1,4 @@
+/* 將輪播圖背景變成圓角 */
+selector .swiper-slide-bg {
+    border-radius: 15px;
+}
