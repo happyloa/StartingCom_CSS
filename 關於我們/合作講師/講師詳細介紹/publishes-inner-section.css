@@ -8,11 +8,18 @@ selector {
 }
 
 /* 當螢幕寬度等於或小於 1024px 時，套用以下的設定 */
+/*@media (max-width: 1024px) {*/
+/*    selector {*/
+/*        width: 220px;*/
+/*        height: 120px;*/
+/*        top: 15%;*/
+/*        right: -5%;*/
+/*    }*/
+/*}*/
+
+/* 當螢幕寬度等於或小於 1024px 時，套用以下的設定 */
 @media (max-width: 1024px) {
     selector {
-        width: 220px;
-        height: 120px;
-        top: 15%;
-        right: -5%;
+        position: static;
     }
 }
