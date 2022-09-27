@@ -1,0 +1,5 @@
+/* 將標題文字變為垂直，且置中 */
+selector .elementor-gallery__titles-container {
+    flex-direction: column;
+    align-items: center;
+}
