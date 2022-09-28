@@ -1,4 +1,11 @@
-/* 將輪播圖背景變成圓角 */
-selector .swiper-slide-bg {
+/* 將輪播圖變成圓角，且設定陰影 */
+selector .elementor-swiper {
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px -6px rgba(40, 42, 45, 0.5);
+}
+
+/* 懸停時讓圓角更圓，陰影擴散 */
+selector .elementor-swiper:hover {
     border-radius: 15px;
+    box-shadow: 0px 20px 25px -6px rgba(40, 42, 45, 0.5);
 }
