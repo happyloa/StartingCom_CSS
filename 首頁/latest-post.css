@@ -1,0 +1,4 @@
+/* 在每個卡片上加上邊框 */
+selector .ha-posts-carousel {
+    border: 1px solid #DAA520;
+}
