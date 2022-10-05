@@ -1,0 +1,11 @@
+/* 將百分比文字置中 */
+selector .current-progress-percentage {
+    text-align: center;
+}
+
+/* 在百分比文字前方加入＂閱讀進度＂文字 */
+selector .current-progress-percentage:before {
+    content: "閱讀進度：";
+    display: block;
+    font-size: 18px;
+}
