@@ -1,0 +1,13 @@
+/* h2 跟 h3 標題文字向下推 margin */
+selector h2, h3 {
+    margin-bottom: 20px;
+    font-weight: 600 !important;
+}
+
+/* 連結懸停時文字保持不變 */
+selector a:hover {
+    font-family: "Noto Sans TC";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
