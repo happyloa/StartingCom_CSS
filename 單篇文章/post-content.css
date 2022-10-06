@@ -4,10 +4,16 @@ selector h2, h3 {
     font-weight: 600 !important;
 }
 
-/* 連結懸停時文字保持不變 */
+/* 設定 a 連結轉場 */
+selector a {
+    transition: all 0.3S ease-in-out;
+}
+
+/* 連結懸停時，文字變成藍色，且變粗 */
 selector a:hover {
     font-family: "Noto Sans TC";
+    color: #15486D;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1.2px;
 }
