@@ -1,0 +1,30 @@
+/* 商品名稱字型設定 */
+selector .ast-product-name {
+    font-family: "Noto Sans TC" !important;
+    font-size: 26px !important;
+}
+
+/* 當頁面寬度等於或小於 1024px 時，套用以下的 CSS */
+@media (max-width: 1024px) {
+    selector .ast-product-name {
+    font-size: 22px !important;
+}
+}
+
+/* 商品數量容器設定 */
+selector .quantity {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 15px 0px;
+}
+
+/* 商品數量加減符號調整 */
+selector .quantity #minus_qty, #plus_qty {
+    margin: 0px 10px 0px 10px;
+    transform: scale(1.5);
+}
+
+/* 商品數量輸入框設定 */
+selector .quantity input {
+    width: 100%;
+}
