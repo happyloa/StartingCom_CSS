@@ -1,44 +1,66 @@
+/* 連結懸停時文字保持不變，使用 Elementor 文字設定 */
+a:link:hover {
+    color: var( --e-global-color-d4e6829 );
+    font-family: var( --e-global-typography-f26b690-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-f26b690-font-size );
+    font-weight: var( --e-global-typography-f26b690-font-weight );
+    line-height: var( --e-global-typography-f26b690-line-height );
+    letter-spacing: var( --e-global-typography-f26b690-letter-spacing );
+    word-spacing: var( --e-global-typography-f26b690-word-spacing );
+}
+
+
 /* 全站的文字被選取時，文字顏色會是白色，背景顏色會是金色 */
 *::selection {
 	color: #FFFFFF;
 	background-color: #DAA520;
 }
+
+
 /* 以下是跟部落格有關的設定 */
 /* 單篇文章圖片文字大小 */
 .wp-block-image figcaption span {
 	font-size: 14px;
 	color: #282A2D !important;
 }
+
 /* 單篇文章圖片文字連結大小 */
 .wp-block-image figcaption span a {
 	font-size: 14px;
 	color: #282A2D !important;
 }
+
+
 /* 以下是跟卷軸有關的設定 */
 /* 頁面卷軸整體寬度 */
 ::-webkit-scrollbar {
 		width: 5px;
 }
+
 /* 頁面卷軸整體寬度懸停設定 */
 ::-webkit-scrollbar:hover {
 		width: 10px;
 }
+
 /* 頁面卷軸軌道設定 */
 ::-webkit-scrollbar-track {
 		-webkit-border-radius: 10px;
 		border-radius: 10px;
 		background: #282A2D;
 }
+
 /* 頁面卷軸軌道懸停設定 */
 ::-webkit-scrollbar-track:hover {
 		background: #15486D;
 }
+
 /* 頁面卷軸位置指示器設定 */
 ::-webkit-scrollbar-thumb {
 		-webkit-border-radius: 4px;
 		border-radius: 4px;
 		background: #DAA520;
 }
+
 /* 頁面卷軸位置指示器懸停設定 */
 ::-webkit-scrollbar-thumb:hover {
 		background: #FFDA7A;
