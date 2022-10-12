@@ -1,0 +1,35 @@
+/* 將文字大小設定成 18px */
+selector .wcf-qty-options, #order_review  {
+    font-size: 18px;
+}
+
+/* 限時優惠 Badge 設定 */
+selector .wcf-highlight-head {
+    top: -20px;
+    right: -25px;
+    color: #282A2D;
+    background: #DAA520;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+/* 當螢幕寬度等於或小於 1024px 時，套用以下 CSS */
+@media (max-width: 1024px) {
+    /* 限時優惠 Badge 往左移動一點 */
+    selector .wcf-highlight-head {
+    right: -10px;
+    }
+    
+    /* 數量設定往左移動 */
+    selector .wcf-qty {
+        transform: translateX(-50px);
+    }
+    
+    /* 價錢欄位改成垂直排列 */
+    selector .wcf-price .woocommerce-Price-amount bdi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
