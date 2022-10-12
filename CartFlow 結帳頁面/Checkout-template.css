@@ -5,13 +5,14 @@ selector .wcf-qty-options, #order_review  {
 
 /* 限時優惠 Badge 設定 */
 selector .wcf-highlight-head {
-    top: -20px;
+    top: -25px;
     right: -25px;
     color: #FFFFFF;
     background: #AF2C02;
     border-radius: 5px;
     padding: 2px 5px;
     font-size: 12px;
+    transform: scale(0.9);
 }
 
 /* 當螢幕寬度等於或小於 1024px 時，套用以下 CSS */
