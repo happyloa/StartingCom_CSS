@@ -1,0 +1,10 @@
+/* 欄位漂浮動畫 */
+selector {
+    animation: 1.3s ease-in-out 2.7s infinite alternate none running floating;
+}
+
+/* 動畫設定，將 Y 軸位移 10 像素 */
+@keyframes floating {
+  from {transform: translateY(0px);}
+  to {transform: translateY(-10px);}
+}
