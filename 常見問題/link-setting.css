@@ -1,0 +1,11 @@
+/* 設定 a 連結的大小、顏色與重量 */
+selector a:link {
+    color: #282A2D;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* 當懸停在 a 連結上時，將顏色變成金色 */
+selector a:hover {
+    color: #DAA520;
+}
