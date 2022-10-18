@@ -8,7 +8,12 @@ selector h2, h3 {
 selector a {
     font-family: "Noto Sans TC";
     font-size: 18px;
-    transition: all 0.3S ease-in-out;
     font-weight: 400;
     letter-spacing: 1.2px;
+    transition: all 0.3S ease-in-out;
+}
+
+/* 外部連結設定成金色 */
+selector p.golden-link a {
+    color: #DAA520;
 }
