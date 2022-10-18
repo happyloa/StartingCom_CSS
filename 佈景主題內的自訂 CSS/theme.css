@@ -19,13 +19,7 @@ a:link:hover {
 
 /* 以下是跟部落格有關的設定 */
 /* 單篇文章圖片文字大小 */
-.wp-block-image figcaption span {
-	font-size: 14px;
-	color: #282A2D !important;
-}
-
-/* 單篇文章圖片文字連結大小 */
-.wp-block-image figcaption span a {
+.wp-block-image figcaption span, a {
 	font-size: 14px;
 	color: #282A2D !important;
 }
