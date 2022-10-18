@@ -12,8 +12,3 @@ selector a {
     font-weight: 400;
     letter-spacing: 1.2px;
 }
-
-/* 外部連結設定成金色 */
-selector p.golden-link a {
-    color: #DAA520;
-}
