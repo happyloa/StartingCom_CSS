@@ -17,8 +17,3 @@ selector a {
 selector p.golden-link a {
     color: #DAA520;
 }
-
-/* 連結懸停時，文字變成黑色 */
-selector a:hover {
-    color: #282A2D;
-}
