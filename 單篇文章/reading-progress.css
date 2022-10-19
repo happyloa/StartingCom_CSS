@@ -9,3 +9,10 @@ selector .current-progress-percentage:before {
     display: block;
     font-size: 18px;
 }
+
+/* 當螢幕高度低於或等於 900px 時，隱藏閱讀進度 */
+@media (max-height: 900px) {
+    selector {
+        display: none;
+    }
+}
