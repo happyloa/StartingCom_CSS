@@ -1,18 +1,3 @@
-/* h2 跟 h3 標題文字向下推 margin */
-selector h2, h3 {
-    margin-bottom: 20px;
-    font-weight: 600 !important;
-}
-
-/* 設定 a 連結 */
-selector a {
-    font-family: "Noto Sans TC";
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 1.2px;
-    transition: all 0.3S ease-in-out;
-}
-
 /* 外部連結設定成金色 */
 selector p.golden-link a {
     color: #DAA520;
