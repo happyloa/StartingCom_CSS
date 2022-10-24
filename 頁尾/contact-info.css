@@ -1,9 +1,4 @@
-/* 設定內部段的轉場時間 */
-#info-inner-section {
-    transition: all 0.5S ease-in;
-}
-
-/* 當內部段被懸停時，放大 3% */
-#info-inner-section:hover {
-    transform: scale(1.03);
+/* 將標題文字下方 Margin 拿掉 */
+selector .elementor-icon-box-title {
+    margin-bottom: 0px;
 }
