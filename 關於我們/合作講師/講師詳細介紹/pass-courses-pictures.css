@@ -1,5 +1,16 @@
-/* 將標題文字變為垂直，且置中 */
-selector .elementor-gallery__titles-container {
-    flex-direction: column;
-    align-items: center;
+/* 讓篩選項目的背景變成圓的 */
+selector .elementor-item {
+    border-radius: 25px;
+}
+
+/* 懸停狀態下，篩選項目的文字變成白色，背景變成金色 */
+selector .elementor-gallery-title:hover {
+    color: #ffffff;
+    background-color: #DAA520;
+}
+
+/* 啟動狀態下，篩選項目的文字變成乳金色，背景變成藍色 */
+selector .elementor-item-active {
+    color: #FFDA7A;
+    background-color: #15486D;
 }
