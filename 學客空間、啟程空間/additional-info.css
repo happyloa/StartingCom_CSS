@@ -1,0 +1,4 @@
+/* 將 span 標籤內的文字改成金色 */
+selector span {
+    color: #DAA520;
+}
