@@ -2,6 +2,7 @@
 selector img {
     width: 80px;
     height: 80px;
+    object-fit: cover;
     display: block;
     margin: 0 0 0 auto;
     transition: all 0.5S ease-in-out;
@@ -9,7 +10,7 @@ selector img {
 
 /* 當螢幕寬度小於或等於 1024px 時，執行以下的 CSS */
 @media (max-width: 1024px) {
-    /* 將圖片的 margin 設為 0，讓圖片吮水平置中 */ 
+    /* 將圖片的 margin 設為 0，讓圖片水平置中 */ 
     selector img {
         margin: 0;
     }
@@ -26,6 +27,7 @@ selector img {
     /* 將文字容器的寬度設為 70% */
     selector .elementor-image-box-content {
         width: 70% !important;
+        padding: 0 0 0 5px;
     }
 }
 
