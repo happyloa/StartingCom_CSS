@@ -12,6 +12,8 @@ selector img {
 @media (max-width: 1024px) {
     /* 將圖片的 margin 設為 0，讓圖片水平置中 */ 
     selector img {
+        width: 75px;
+        height: 75px;
         margin: 0;
     }
     
@@ -22,11 +24,11 @@ selector img {
     
     /* 將圖片容器的寬度設為 30% */
     selector .elementor-image-box-img {
-        width: 30% !important;
+        width: 50% !important;
     }
     /* 將文字容器的寬度設為 70% */
     selector .elementor-image-box-content {
-        width: 70% !important;
+        width: 50% !important;
         padding: 0 0 0 5px;
     }
 }
