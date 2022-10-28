@@ -1,0 +1,5 @@
+/* 當滑鼠移動到分類連結上時，連結變成金色且有底線 */
+selector a:hover {
+    color: #DAA520 !important;
+    text-decoration: underline;
+}
