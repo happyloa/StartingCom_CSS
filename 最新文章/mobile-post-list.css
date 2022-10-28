@@ -1,0 +1,17 @@
+/* 標題文字懸停時顏色改為金色 */
+selector .elementor-post__title a:hover {
+    color: #DAA520;
+}
+
+/* 移除卡片圖片上的漸層 */
+selector .elementor-post__thumbnail__link:after {
+    display: none !important;
+}
+
+/* 將摘要縮成兩排 */
+selector .elementor-post__excerpt p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
