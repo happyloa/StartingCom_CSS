@@ -1,3 +1,18 @@
+/* H2 標題向上推 50px */
+selector h2 {
+    margin: 50px 0 0 0;
+}
+
+/* H3 標題向上推 30px */
+selector h3 {
+    margin: 30px 0 0 0;
+}
+
+/* H4 標題向上推 10px */
+selector h4 {
+    margin: 10px 0 0 0;
+}
+
 /* 外部連結設定成金色 */
 selector p.golden-link a {
     color: #DAA520;
