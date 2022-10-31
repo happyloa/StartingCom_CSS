@@ -1,0 +1,4 @@
+/* 將粗體字加上金色底線 */
+selector strong {
+    box-shadow: #daa520 0px -0.5em 0px 0px inset;
+}
