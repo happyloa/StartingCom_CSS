@@ -1,5 +1,5 @@
 /* 在文字結尾加入 >  */
-selector h3 a:after {
+selector a:after {
     position: absolute;
     right: 0px;
     content: ">";
