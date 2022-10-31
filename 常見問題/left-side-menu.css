@@ -1,0 +1,9 @@
+/* 設定文字底線 */
+selector p span {
+    border-bottom: 1px solid #DAA520;
+}
+
+/* 當滑鼠懸停時，設定底色 */
+selector p span:hover {
+    background: #DAA520;
+}
