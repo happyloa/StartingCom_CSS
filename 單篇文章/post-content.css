@@ -42,12 +42,11 @@ selector hr.wp-block-separator {
 }
 
 /* 外部連結設定成金色 */
-selector p.golden-link a {
+selector p a {
     color: #DAA520;
+    transition: all 0.3s ease-in-out;
 }
-
-/* 當滑鼠移動到連結上時，連結變成金色且有底線 */
-selector a:hover {
-    color: #DAA520 !important;
-    text-decoration: underline;
+/* 當滑鼠移動到連結上時，連結變粗 */
+selector p a:hover {
+    font-weight: 600;
 }
