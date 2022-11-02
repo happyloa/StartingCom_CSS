@@ -25,10 +25,10 @@ selector p.has-background {
 
 /* 加粗或加底線的文字底下加上標準色底線 */
 selector .golden-underline > strong {
-    box-shadow: #daa520 0px -0.5em 0px 0px inset;
+    box-shadow: #FFDA7A 0px -0.5em 0px 0px inset;
 }
 selector .golden-underline > span[style="text-decoration: underline;"] {
-    box-shadow: #daa520 0px -0.5em 0px 0px inset;
+    box-shadow: #FFDA7A 0px -0.5em 0px 0px inset;
 }
 
 /* 有序清單與無序清單往右邊移動 40px */
