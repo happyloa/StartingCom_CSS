@@ -40,12 +40,12 @@ selector p mark[style] {
 /* 斜體加底線 */
 selector p em {
     font-style: normal;
-    box-shadow: #fff5e2 0px -0.5em 0px 0px inset;
+    box-shadow: #ffda7a 0px -0.5em 0px 0px inset;
 }
 
-/* 有序清單與無序清單往右邊移動 40px */
+/* 有序清單與無序清單往右邊移動 40px，往下移動 20px */
 selector ol, ul {
-    margin: 0 0 0 40px;
+    margin: 0 0 20px 40px;
 }
 
 /* 分隔符號向下推 20px */
