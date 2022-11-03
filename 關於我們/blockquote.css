@@ -1,0 +1,4 @@
+/* 將文字內容置中 */
+selector .elementor-blockquote__content {
+    text-align: center;
+}
