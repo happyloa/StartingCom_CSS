@@ -43,7 +43,7 @@ selector p em {
     box-shadow: #ffda7a 0px -0.5em 0px 0px inset;
 }
 
-/* 有序清單與無序清單往右邊移動 40px，往下移動 20px */
+/* 有序清單與無序清單往右邊移動 40px，往下推 20px */
 selector ol, ul {
     margin: 0 0 20px 40px;
 }
