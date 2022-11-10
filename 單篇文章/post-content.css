@@ -18,9 +18,9 @@ selector p {
     margin: 0 0 16px 0;
 }
 
-/* 有底色的段落文字上下特各推 20px */
+/* 有底色的段落文字上下特各推 16px */
 selector p.has-background {
-    margin: 10px 0 10px 0;
+    margin: 16px 0 16px 0;
 }
 
 /* 加粗或加底線的文字底下加上標準色底線 
