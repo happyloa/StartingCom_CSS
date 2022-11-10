@@ -1,21 +1,21 @@
-/* H2 標題向上推 50px，向下推 20px */
+/* H2 標題向上推 70px */
 selector h2 {
-    margin: 50px 0 20px 0;
+    margin-top: 70px;
 }
 
-/* H3 標題向上推 30px，向下推 20px */
+/* H3 標題向上推 50px */
 selector h3 {
-    margin: 30px 0 20px 0;
+    margin-top: 50px;
 }
 
-/* H4 標題向上推 10px，向下推 15px */
+/* H4 標題向上推 30px */
 selector h4 {
-    margin: 10px 0 15px 0;
+    margin-top: 30px;
 }
 
-/* 段落向下推 20px */
+/* 段落向下推 16px */
 selector p {
-    margin: 0 0 20px 0;
+    margin: 0 0 16px 0;
 }
 
 /* 有底色的段落文字上下特各推 20px */
