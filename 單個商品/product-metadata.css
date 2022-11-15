@@ -1,0 +1,9 @@
+/* 移除庫存單位 */
+selector .sku_wrapper {
+    display: none;
+}
+
+/* 移除商品標籤 */
+selector .tagged_as {
+    display: none;
+}
