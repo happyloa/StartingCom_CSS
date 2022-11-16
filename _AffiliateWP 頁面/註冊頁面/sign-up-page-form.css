@@ -4,7 +4,7 @@ selector #affwp-register-form legend {
 }
 
 /* 將表單欄位的背景色變成灰色，並改變框線顏色 */
-selector #affwp-register-form input[type="text"], input[type="email"], textarea  {
+selector #affwp-register-form input[type="text"], input[type="email"], input[type="password"], textarea  {
     background-color: #EDEDED;
     border-width: 2px;
     border-color: #FFF7E4;
