@@ -1,0 +1,22 @@
+/* 將表單欄位的背景色變成灰色，並改變框線顏色 */
+selector #affwp-login-form input[type="text"], input[type="password"] {
+    background-color: #EDEDED;
+    border-width: 2px;
+    border-color: #FFF7E4;
+}
+
+/* 當表單欄位被啟動時，將框線改成金色 */
+selector #affwp-login-form input:focus  {
+    border-color: #DAA520;
+}
+
+/* 將忘記密碼頁面的連結加上底線 */
+selector #affwp-login-form .affwp-lost-password a {
+    text-decoration: underline;
+    transition: all 0.3S ease-in-out;
+}
+
+/* 當滑鼠移動到忘記密碼頁面的連結上時，將文字變成金色 */
+selector #affwp-login-form .affwp-lost-password a:hover {
+    color: #DAA520;
+}
