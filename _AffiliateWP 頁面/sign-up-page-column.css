@@ -1,0 +1,11 @@
+/* 設定欄位陰影 */
+selector {
+    box-shadow: 6px 6px 12px -5px rgba(0,0,0,0.5);
+}
+
+/* 手機板移除欄位陰影 */
+@media (max-width: 1024px) {
+    selector {
+        box-shadow: none;
+    }
+}
