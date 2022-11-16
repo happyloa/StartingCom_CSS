@@ -3,9 +3,16 @@ selector #affwp-register-form legend {
     display: none;
 }
 
-/* 將表單欄位的背景色變成灰色 */
+/* 將表單欄位的背景色變成灰色，並改變框線顏色 */
 selector #affwp-register-form input[type="text"], input[type="email"], textarea  {
     background-color: #EDEDED;
+    border-width: 2px;
+    border-color: #FFF7E4;
+}
+
+/* 當表單欄位被啟動時，將框線改成金色 */
+selector #affwp-register-form input:focus  {
+    border-color: #DAA520;
 }
 
 /* 將聯盟夥伴條款頁面的連結加上底線 */
