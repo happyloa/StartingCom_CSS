@@ -5,3 +5,13 @@ selector .post-92804,
 .post-120702 {
   display: none !important;
 }
+
+/* 按鈕樣式設定 */
+selector .product a.button {
+  transition: transform 0.3s ease;
+}
+
+/* 按鈕樣式懸停設定 */
+selector .product a.button:hover {
+  transform: scale(0.85);
+}
