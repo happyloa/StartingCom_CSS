@@ -2,7 +2,7 @@
 selector #affwp-login-form input[type="text"], input[type="password"] {
     background-color: #EDEDED;
     border-width: 2px;
-    border-color: #FFF7E4;
+    border-color: #898989;
 }
 
 /* 當表單欄位被啟動時，將框線改成金色 */
