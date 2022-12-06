@@ -1,0 +1,6 @@
+/* 將圖片的寬高設定成 70px */
+selector img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
