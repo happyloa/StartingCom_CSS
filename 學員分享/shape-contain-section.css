@@ -1,0 +1,5 @@
+/* 隱藏超出 x 軸的元素 */
+selector {
+  overflow-y: visible;
+  overflow-x: clip;
+}
