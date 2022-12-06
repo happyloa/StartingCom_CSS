@@ -1,0 +1,4 @@
+/* 隱藏超出 x 軸的元素 */
+selector {
+  overflow-x: hidden;
+}
