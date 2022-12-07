@@ -63,21 +63,21 @@ selector .uael-post-wrapper:nth-of-type(6) h4:after {
 }
 
 /* 王鼎琪簡介文字 */
-/*selector .uael-post-wrapper:nth-of-type(8) h4:after {*/
-/*    content: "世界記憶大賽亞洲女性冠軍，出版過11本暢銷書";*/
-/*}*/
+selector .uael-post-wrapper:nth-of-type(7) h4:after {
+    content: "世界記憶大賽亞洲女性冠軍，出版過11本暢銷書";
+}
 
 /* Jerry簡介文字 */
-selector .uael-post-wrapper:nth-of-type(7) h4:after {
+selector .uael-post-wrapper:nth-of-type(8) h4:after {
     content: "部落格累積流量達300萬，用部落格成為自由工作者";
 }
 
 /* 魏上騰簡介文字 */
-selector .uael-post-wrapper:nth-of-type(8) h4:after {
+selector .uael-post-wrapper:nth-of-type(9) h4:after {
     content: "公勝保險經紀人、NLP國際執行師、保險沃客創辦人";
 }
 
 /* William簡介文字 */
-selector .uael-post-wrapper:nth-of-type(9) h4:after {
+selector .uael-post-wrapper:nth-of-type(10) h4:after {
     content: "20年網路行銷經驗，若水學院創辦人&總經理";
 }
