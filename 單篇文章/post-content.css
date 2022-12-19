@@ -1,4 +1,4 @@
-/* H2 標題加上裝飾性背景與左邊的底線，並向上推 70px */
+/* H2 標題向上推 70px */
 selector h2 {
     background-color: #eee;
     border-left: 5px solid #daa520;
@@ -26,20 +26,6 @@ selector p.has-background {
     margin: 16px 0 16px 0;
 }
 
-/* 加粗或加底線的文字底下加上標準色底線 
-selector .golden-underline > strong {
-    box-shadow: #FFDA7A 0px -0.5em 0px 0px inset;
-}
-selector .golden-underline > span[style="text-decoration: underline;"] {
-    box-shadow: #FFDA7A 0px -0.5em 0px 0px inset;
-}
-selector p mark[style] {
-    display: inline-block;
-    height: 9px;
-    line-height: 0;
-}
-*/
-
 /* 斜體加底線 */
 selector p em {
     font-style: normal;
@@ -57,11 +43,11 @@ selector hr.wp-block-separator {
 }
 
 /* 外部連結設定成金色 */
-selector p a {
+selector a {
     color: #DAA520;
     transition: all 0.3s ease-in-out;
 }
 /* 當滑鼠移動到連結上時，連結變粗 */
-selector p a:hover {
+selector a:hover {
     font-weight: 600;
 }
