@@ -1,0 +1,13 @@
+/* 將高度限制為 450px，隱藏 x 軸，顯示 y 軸 */
+selector {
+  height: 450px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* 當螢幕寬度等於或小於 768px 時 */
+@media (max-width: 768px) {
+  selector {
+    height: 300px;
+  }
+}
