@@ -1,6 +1,14 @@
+selector .elementor-post__title a {
+  transition: all 0.3s ease;
+}
+
+selector .elementor-post__title a:hover {
+  color: #daa520;
+}
+
 /* 在文字結尾加入 >  */
 selector a:after {
-    position: absolute;
-    right: 0px;
-    content: ">";
+  position: absolute;
+  right: 0px;
+  content: ">";
 }
