@@ -42,6 +42,12 @@
     const shareOnSocialMedia = shareModal.childNodes[7];
     shareOnSocialMedia.childNodes[1].textContent = "在社群媒體上分享";
 
+    // 原文：A course by
+    const aCourseBy = document.querySelector(
+      ".tutor-course-details-instructors h3"
+    );
+    aCourseBy.textContent = "課程建立者";
+
     // 原文：Show More
     const showMore = document.querySelector(".tutor-toggle-btn-text");
     showMore.textContent = "完整課程介紹";
@@ -56,5 +62,23 @@
     // 原文：Course Content
     const courseContent = document.querySelector(".tutor-course-content-title");
     courseContent.textContent = "課程內容";
+
+    /////////////////////////////
+    //
+    // 以下為跟評論 tab 有關的翻譯
+    //
+    /////////////////////////////
+
+    // 原文：Student Ratings & Reviews
+    const studentRatingsAndReviews = document.querySelector(
+      ".tutor-tab .tutor-pagination-wrapper-replaceable h3"
+    );
+    studentRatingsAndReviews.textContent = "學員評價";
+
+    // 原文：No Review Yet
+    const noReviewYet = document.querySelector(
+      ".tutor-tab .tutor-pagination-wrapper-replaceable .tutor-empty-state div"
+    );
+    noReviewYet.textContent = "目前未有任何評價";
   });
 </script>
