@@ -6,8 +6,15 @@
 
   // 點開 Share 之後出現的 Modal 上的文字
   const shareModal = document.querySelector(".tutor-modal-body");
+  // 原文：Share Course
   const shareCourse = shareModal.childNodes[1];
   shareCourse.textContent = "分享這門課程";
+  // 原文：Page Link
+  const pageLink = shareModal.childNodes[3];
+  pageLink.textContent = "頁面連結";
+  // 原文：Share On Social Media
+  const shareOnSocialMedia = shareModal.childNodes[7];
+  shareOnSocialMedia.childNodes[1].textContent = "在社群媒體上分享";
 
   // 原文：Show More
   const showMore = document.querySelector(".tutor-toggle-btn-text");
