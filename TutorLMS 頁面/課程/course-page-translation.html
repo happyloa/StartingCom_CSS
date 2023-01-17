@@ -1,33 +1,60 @@
+<style>
+  .tutor-container {
+    padding: 100px 0;
+    max-width: 1200px;
+  }
+  @media (max-width: 1024px) {
+    .tutor-container {
+      padding: 90px 0;
+      max-width: 90%;
+    }
+  }
+</style>
 <script>
-  // 原文：Share
-  const shareButton = document.querySelector(".tutor-course-share-btn");
-  const textNode = shareButton.childNodes[2];
-  textNode.nodeValue = "分享";
+  document.addEventListener("DOMContentLoaded", () => {
+    // 課程資訊
+    const courseDetailsInfo = document.querySelector(
+      ".tutor-course-details-info"
+    );
+    const byAndCategories = courseDetailsInfo.childNodes[3];
+    const courseBySpan = byAndCategories.childNodes[1];
+    // 原文：By
+    const courseBy = courseBySpan.childNodes[0];
+    courseBy.textContent = "課程建立者 ";
+    // 原文：Categories:
+    const courseCategories = byAndCategories.childNodes[2];
+    courseCategories.textContent = "分類：";
 
-  // 點開 Share 之後出現的 Modal 上的文字
-  const shareModal = document.querySelector(".tutor-modal-body");
-  // 原文：Share Course
-  const shareCourse = shareModal.childNodes[1];
-  shareCourse.textContent = "分享這門課程";
-  // 原文：Page Link
-  const pageLink = shareModal.childNodes[3];
-  pageLink.textContent = "頁面連結";
-  // 原文：Share On Social Media
-  const shareOnSocialMedia = shareModal.childNodes[7];
-  shareOnSocialMedia.childNodes[1].textContent = "在社群媒體上分享";
+    const shareButton = document.querySelector(".tutor-course-share-btn");
+    // 原文：Share
+    const textNode = shareButton.childNodes[2];
+    textNode.nodeValue = "分享";
 
-  // 原文：Show More
-  const showMore = document.querySelector(".tutor-toggle-btn-text");
-  showMore.textContent = "完整課程介紹";
+    // 點開 Share 之後出現的 Modal 上的文字
+    const shareModal = document.querySelector(".tutor-modal-body");
+    // 原文：Share Course
+    const shareCourse = shareModal.childNodes[1];
+    shareCourse.textContent = "分享這門課程";
+    // 原文：Page Link
+    const pageLink = shareModal.childNodes[3];
+    pageLink.textContent = "頁面連結";
+    // 原文：Share On Social Media
+    const shareOnSocialMedia = shareModal.childNodes[7];
+    shareOnSocialMedia.childNodes[1].textContent = "在社群媒體上分享";
 
-  // 原文：What Will You Learn 跟 Audience
-  const whatWillYouLearnAndAudience = document.querySelectorAll(
-    ".tutor-course-details-widget-title"
-  );
-  whatWillYouLearnAndAudience[0].textContent = "你會學到什麼？";
-  whatWillYouLearnAndAudience[3].textContent = "這門課適合什麼人？";
+    // 原文：Show More
+    const showMore = document.querySelector(".tutor-toggle-btn-text");
+    showMore.textContent = "完整課程介紹";
 
-  // 原文：Course Content
-  const courseContent = document.querySelector(".tutor-course-content-title");
-  courseContent.textContent = "課程內容";
+    // 原文：What Will You Learn 跟 Audience
+    const whatWillYouLearnAndAudience = document.querySelectorAll(
+      ".tutor-course-details-widget-title"
+    );
+    whatWillYouLearnAndAudience[0].textContent = "你會學到什麼？";
+    whatWillYouLearnAndAudience[3].textContent = "這門課適合什麼人？";
+
+    // 原文：Course Content
+    const courseContent = document.querySelector(".tutor-course-content-title");
+    courseContent.textContent = "課程內容";
+  });
 </script>
