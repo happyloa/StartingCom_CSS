@@ -1,4 +1,14 @@
 <script>
+  // 原文：Share
+  const shareButton = document.querySelector(".tutor-course-share-btn");
+  const textNode = shareButton.childNodes[2];
+  textNode.nodeValue = "分享";
+
+  // 點開 Share 之後出現的 Modal 上的文字
+  const shareModal = document.querySelector(".tutor-modal-body");
+  const shareCourse = shareModal.childNodes[1];
+  shareCourse.textContent = "分享這門課程";
+
   // 原文：Show More
   const showMore = document.querySelector(".tutor-toggle-btn-text");
   showMore.textContent = "完整課程介紹";
