@@ -42,10 +42,22 @@
     const shareOnSocialMedia = shareModal.childNodes[7];
     shareOnSocialMedia.childNodes[1].textContent = "在社群媒體上分享";
 
-		// 原文：Certificate of completion
-		const certificateOfCompletion = document.querySelector(".tutor-card-footer ul li:nth-child(5) span.tutor-fs-6")
-		certificateOfCompletion.textContent = "會有完課證書";
-		
+    const courseSummaryListItem = document.querySelector(
+      ".tutor-card-footer ul li:nth-child(3)"
+    );
+    const courseLengthSpan = courseSummaryListItem.childNodes[3];
+    // 原文：Hours
+    const courseHours = courseLengthSpan.childNodes[2];
+    courseHours.textContent = " 課程時數";
+    const redundantHoursText = courseLengthSpan.childNodes[3];
+    courseLengthSpan.removeChild(redundantHoursText);
+
+    // 原文：Certificate of completion
+    const certificateOfCompletion = document.querySelector(
+      ".tutor-card-footer ul li:nth-child(5) span.tutor-fs-6"
+    );
+    certificateOfCompletion.textContent = "會有完課證書";
+
     // 原文：A course by
     const aCourseBy = document.querySelector(
       ".tutor-course-details-instructors h3"
