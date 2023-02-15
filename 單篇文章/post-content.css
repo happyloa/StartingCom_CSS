@@ -22,8 +22,10 @@ selector p {
 }
 
 /* 有底色的段落文字上下特各推 16px */
-selector p.has-background {
+selector blockquote.wp-block-quote {
+    background-color: #abb7c266;
     margin: 16px 0 16px 0;
+    padding: 1.25em 2.375em;
 }
 
 /* 斜體加底線 */
