@@ -21,8 +21,8 @@ selector p {
     margin: 0 0 16px 0;
 }
 
-/* 有底色的段落文字上下特各推 16px */
-selector blockquote.wp-block-quote {
+/* 有底色的段落文字上下間距各推 16px、把底色改成灰色、並內縮 */
+selector .has-background {
     background-color: #abb7c266;
     margin: 16px 0 16px 0;
     padding: 1.25em 2.375em;
